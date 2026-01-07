@@ -12,7 +12,7 @@ int main(int argc, char **argv)
     int maxTries = 5;
     
     do{
-        printf("guess a number: ");
+        printf("guess a number between 0 and 20: ");
         scanf("%d", &guess);
         
         if (guess > randomNumber){
